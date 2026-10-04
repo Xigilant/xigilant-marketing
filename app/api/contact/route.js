@@ -12,7 +12,7 @@ export async function POST(req) {
     }
 
     await resend.emails.send({
-      from: 'Xigilant <onboarding@resend.dev>',
+      from: 'Xigilant <hello@xigilant.com>',
       to: ['hello@xigilant.com'],
       replyTo: email,
       subject: `[${reason}] from ${name}${company ? ` · ${company}` : ''}`,
