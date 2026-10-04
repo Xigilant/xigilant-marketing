@@ -53,7 +53,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/30">© {new Date().getFullYear()} Xigilant LLC. All rights reserved.</p>
+          <div className="flex items-center gap-4">
+            <p className="text-xs text-white/30">© {new Date().getFullYear()} Xigilant LLC. All rights reserved.</p>
+            <Link href="/privacy" className="text-xs text-white/30 hover:text-white/60 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-xs text-white/30 hover:text-white/60 transition-colors">Terms of Service</Link>
+          </div>
           <p className="text-xs text-white/30 flex items-center gap-1.5">
             <HexShield size={11} variant="ghost" />
             Managed Cloud Security · Cloud-Native
