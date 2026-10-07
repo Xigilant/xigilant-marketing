@@ -5,6 +5,7 @@ const LINKS = {
   Product: [
     { label: 'How it works', href: '/how-it-works' },
     { label: 'Pricing',      href: '/pricing' },
+    { label: 'Resources',    href: '/resources' },
     { label: 'Sign in',      href: '/contact' },
   ],
   Company: [
