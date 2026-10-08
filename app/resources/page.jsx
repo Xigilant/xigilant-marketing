@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ResourceCard from '@/components/ResourceCard'
@@ -40,7 +41,7 @@ export default function Resources() {
               <h2 className="font-serif font-bold text-lg text-xi-t1 mb-2">First piece coming soon.</h2>
               <p className="text-sm text-xi-t2 leading-relaxed">
                 We're writing it now. Check back shortly, or{' '}
-                <a href="mailto:hello@xigilant.com" className="text-xi-acc hover:underline">get in touch</a>{' '}
+                <Link href="/contact" className="text-xi-acc hover:underline">get in touch</Link>{' '}
                 if there's something specific you'd want us to cover.
               </p>
             </div>
